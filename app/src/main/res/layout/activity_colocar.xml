@@ -1,0 +1,1502 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Colocar">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="Coloca tus naves"
+
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textSize="15sp" />
+    <TextView
+        android:id="@+id/idTVTurn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text=""
+        android:layout_marginBottom="10dp"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textSize="15sp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="0dp"
+        android:weightSum="2">
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+            <RadioButton
+                android:id="@+id/horizontal"
+                android:text="Horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <RadioButton
+                android:id="@+id/vertical"
+                android:text="Vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </RadioGroup>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:padding="0dp"
+            android:weightSum="10">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:padding="0dp"
+                android:weightSum="10">
+
+                <Button
+                    android:id="@+id/idBtnBox1"
+                    style="@style/Widget.Material3.CardView.Outlined"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:backgroundTint="#ADFF6AE6"
+                    android:elevation="0dp"
+                    android:insetTop="0dp"
+                    android:insetBottom="0dp"
+                    android:onClick="buttonClick"
+                    android:textSize="25dp" />
+
+                <Button
+                    android:id="@+id/idBtnBox2"
+                    style="@style/Widget.Material3.CardView.Outlined"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:backgroundTint="#ADFF6AE6"
+                    android:elevation="0dp"
+                    android:insetTop="0dp"
+                    android:insetBottom="0dp"
+                    android:onClick="buttonClick"
+                    android:textSize="25dp" />
+
+                <Button
+                    android:id="@+id/idBtnBox3"
+                    style="@style/Widget.Material3.CardView.Outlined"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:backgroundTint="#ADFF6AE6"
+                    android:elevation="0dp"
+                    android:insetTop="0dp"
+                    android:insetBottom="0dp"
+                    android:onClick="buttonClick"
+                    android:textSize="25dp" />
+
+                <Button
+                    android:id="@+id/idBtnBox4"
+                    style="@style/Widget.Material3.CardView.Outlined"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:backgroundTint="#ADFF6AE6"
+                    android:elevation="0dp"
+                    android:insetTop="0dp"
+                    android:insetBottom="0dp"
+                    android:onClick="buttonClick"
+                    android:textSize="25dp" />
+
+                <Button
+                    android:id="@+id/idBtnBox5"
+                    style="@style/Widget.Material3.CardView.Outlined"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:backgroundTint="#ADFF6AE6"
+                    android:elevation="0dp"
+                    android:insetTop="0dp"
+                    android:insetBottom="0dp"
+                    android:onClick="buttonClick"
+                    android:textSize="25dp" />
+
+                <Button
+                    android:id="@+id/idBtnBox6"
+                    style="@style/Widget.Material3.CardView.Outlined"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:backgroundTint="#ADFF6AE6"
+                    android:elevation="0dp"
+                    android:insetTop="0dp"
+                    android:insetBottom="0dp"
+                    android:onClick="buttonClick"
+                    android:textSize="25dp" />
+
+                <Button
+                    android:id="@+id/idBtnBox7"
+                    style="@style/Widget.Material3.CardView.Outlined"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:backgroundTint="#ADFF6AE6"
+                    android:elevation="0dp"
+                    android:insetTop="0dp"
+                    android:insetBottom="0dp"
+                    android:onClick="buttonClick"
+                    android:textSize="25dp" />
+
+                <Button
+                    android:id="@+id/idBtnBox8"
+                    style="@style/Widget.Material3.CardView.Outlined"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:backgroundTint="#ADFF6AE6"
+                    android:elevation="0dp"
+                    android:insetTop="0dp"
+                    android:insetBottom="0dp"
+                    android:onClick="buttonClick"
+                    android:textSize="25dp" />
+
+                <Button
+                    android:id="@+id/idBtnBox9"
+                    style="@style/Widget.Material3.CardView.Outlined"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:backgroundTint="#ADFF6AE6"
+                    android:elevation="0dp"
+                    android:insetTop="0dp"
+                    android:insetBottom="0dp"
+                    android:onClick="buttonClick"
+                    android:textSize="25dp" />
+
+                <Button
+                    android:id="@+id/idBtnBox10"
+                    style="@style/Widget.Material3.CardView.Outlined"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:backgroundTint="#ADFF6AE6"
+                    android:elevation="0dp"
+                    android:insetTop="0dp"
+                    android:insetBottom="0dp"
+                    android:onClick="buttonClick"
+                    android:textSize="25dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:padding="0dp"
+                android:weightSum="10">
+
+                <Button
+                    android:id="@+id/idBtnBox11"
+                    style="@style/Widget.Material3.CardView.Outlined"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:backgroundTint="#ADFF6AE6"
+                    android:elevation="0dp"
+                    android:insetTop="0dp"
+                    android:insetBottom="0dp"
+                    android:onClick="buttonClick"
+                    android:textSize="25dp" />
+
+                <Button
+                    android:id="@+id/idBtnBox12"
+                    style="@style/Widget.Material3.CardView.Outlined"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:backgroundTint="#ADFF6AE6"
+                    android:elevation="0dp"
+                    android:insetTop="0dp"
+                    android:insetBottom="0dp"
+                    android:onClick="buttonClick"
+                    android:textSize="25dp" />
+
+                <Button
+                    android:id="@+id/idBtnBox13"
+                    style="@style/Widget.Material3.CardView.Outlined"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:backgroundTint="#ADFF6AE6"
+                    android:elevation="0dp"
+                    android:insetTop="0dp"
+                    android:insetBottom="0dp"
+                    android:onClick="buttonClick"
+                    android:textSize="25dp" />
+
+                <Button
+                    android:id="@+id/idBtnBox14"
+                    style="@style/Widget.Material3.CardView.Outlined"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:backgroundTint="#ADFF6AE6"
+                    android:elevation="0dp"
+                    android:insetTop="0dp"
+                    android:insetBottom="0dp"
+                    android:onClick="buttonClick"
+                    android:textSize="25dp" />
+
+                <Button
+                    android:id="@+id/idBtnBox15"
+                    style="@style/Widget.Material3.CardView.Outlined"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:backgroundTint="#ADFF6AE6"
+                    android:elevation="0dp"
+                    android:insetTop="0dp"
+                    android:insetBottom="0dp"
+                    android:onClick="buttonClick"
+                    android:textSize="25dp" />
+
+                <Button
+                    android:id="@+id/idBtnBox16"
+                    style="@style/Widget.Material3.CardView.Outlined"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:backgroundTint="#ADFF6AE6"
+                    android:elevation="0dp"
+                    android:insetTop="0dp"
+                    android:insetBottom="0dp"
+                    android:onClick="buttonClick"
+                    android:textSize="25dp" />
+
+                <Button
+                    android:id="@+id/idBtnBox17"
+                    style="@style/Widget.Material3.CardView.Outlined"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:backgroundTint="#ADFF6AE6"
+                    android:elevation="0dp"
+                    android:insetTop="0dp"
+                    android:insetBottom="0dp"
+                    android:onClick="buttonClick"
+                    android:textSize="25dp" />
+
+                <Button
+                    android:id="@+id/idBtnBox18"
+                    style="@style/Widget.Material3.CardView.Outlined"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:backgroundTint="#ADFF6AE6"
+                    android:elevation="0dp"
+                    android:insetTop="0dp"
+                    android:insetBottom="0dp"
+                    android:onClick="buttonClick"
+                    android:textSize="25dp" />
+
+                <Button
+                    android:id="@+id/idBtnBox19"
+                    style="@style/Widget.Material3.CardView.Outlined"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:backgroundTint="#ADFF6AE6"
+                    android:elevation="0dp"
+                    android:insetTop="0dp"
+                    android:insetBottom="0dp"
+                    android:onClick="buttonClick"
+                    android:textSize="25dp" />
+
+                <Button
+                    android:id="@+id/idBtnBox20"
+                    style="@style/Widget.Material3.CardView.Outlined"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:backgroundTint="#ADFF6AE6"
+                    android:elevation="0dp"
+                    android:insetTop="0dp"
+                    android:insetBottom="0dp"
+                    android:onClick="buttonClick"
+                    android:textSize="25dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:padding="0dp"
+                android:weightSum="10">
+
+                <Button
+                    android:id="@+id/idBtnBox21"
+                    style="@style/Widget.Material3.CardView.Outlined"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:backgroundTint="#ADFF6AE6"
+                    android:elevation="0dp"
+                    android:insetTop="0dp"
+                    android:insetBottom="0dp"
+                    android:onClick="buttonClick"
+                    android:textSize="25dp" />
+
+                <Button
+                    android:id="@+id/idBtnBox22"
+                    style="@style/Widget.Material3.CardView.Outlined"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:backgroundTint="#ADFF6AE6"
+                    android:elevation="0dp"
+                    android:insetTop="0dp"
+                    android:insetBottom="0dp"
+                    android:onClick="buttonClick"
+                    android:textSize="25dp" />
+
+                <Button
+                    android:id="@+id/idBtnBox23"
+                    style="@style/Widget.Material3.CardView.Outlined"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:backgroundTint="#ADFF6AE6"
+                    android:elevation="0dp"
+                    android:insetTop="0dp"
+                    android:insetBottom="0dp"
+                    android:onClick="buttonClick"
+                    android:textSize="25dp" />
+
+                <Button
+                    android:id="@+id/idBtnBox24"
+                    style="@style/Widget.Material3.CardView.Outlined"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:backgroundTint="#ADFF6AE6"
+                    android:elevation="0dp"
+                    android:insetTop="0dp"
+                    android:insetBottom="0dp"
+                    android:onClick="buttonClick"
+                    android:textSize="25dp" />
+
+                <Button
+                    android:id="@+id/idBtnBox25"
+                    style="@style/Widget.Material3.CardView.Outlined"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:backgroundTint="#ADFF6AE6"
+                    android:elevation="0dp"
+                    android:insetTop="0dp"
+                    android:insetBottom="0dp"
+                    android:onClick="buttonClick"
+                    android:textSize="25dp" />
+
+                <Button
+                    android:id="@+id/idBtnBox26"
+                    style="@style/Widget.Material3.CardView.Outlined"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:backgroundTint="#ADFF6AE6"
+                    android:elevation="0dp"
+                    android:insetTop="0dp"
+                    android:insetBottom="0dp"
+                    android:onClick="buttonClick"
+                    android:textSize="25dp" />
+
+                <Button
+                    android:id="@+id/idBtnBox27"
+                    style="@style/Widget.Material3.CardView.Outlined"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:backgroundTint="#ADFF6AE6"
+                    android:elevation="0dp"
+                    android:insetTop="0dp"
+                    android:insetBottom="0dp"
+                    android:onClick="buttonClick"
+                    android:textSize="25dp" />
+
+                <Button
+                    android:id="@+id/idBtnBox28"
+                    style="@style/Widget.Material3.CardView.Outlined"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:backgroundTint="#ADFF6AE6"
+                    android:elevation="0dp"
+                    android:insetTop="0dp"
+                    android:insetBottom="0dp"
+                    android:onClick="buttonClick"
+                    android:textSize="25dp" />
+
+                <Button
+                    android:id="@+id/idBtnBox29"
+                    style="@style/Widget.Material3.CardView.Outlined"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:backgroundTint="#ADFF6AE6"
+                    android:elevation="0dp"
+                    android:insetTop="0dp"
+                    android:insetBottom="0dp"
+                    android:onClick="buttonClick"
+                    android:textSize="25dp" />
+
+                <Button
+                    android:id="@+id/idBtnBox30"
+                    style="@style/Widget.Material3.CardView.Outlined"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:backgroundTint="#ADFF6AE6"
+                    android:elevation="0dp"
+                    android:insetTop="0dp"
+                    android:insetBottom="0dp"
+                    android:onClick="buttonClick"
+                    android:textSize="25dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:padding="0dp"
+                android:weightSum="10">
+
+                <Button
+                    android:id="@+id/idBtnBox31"
+                    style="@style/Widget.Material3.CardView.Outlined"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:backgroundTint="#ADFF6AE6"
+                    android:elevation="0dp"
+                    android:insetTop="0dp"
+                    android:insetBottom="0dp"
+                    android:onClick="buttonClick"
+                    android:textSize="25dp" />
+
+                <Button
+                    android:id="@+id/idBtnBox32"
+                    style="@style/Widget.Material3.CardView.Outlined"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:backgroundTint="#ADFF6AE6"
+                    android:elevation="0dp"
+                    android:insetTop="0dp"
+                    android:insetBottom="0dp"
+                    android:onClick="buttonClick"
+                    android:textSize="25dp" />
+
+                <Button
+                    android:id="@+id/idBtnBox33"
+                    style="@style/Widget.Material3.CardView.Outlined"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:backgroundTint="#ADFF6AE6"
+                    android:elevation="0dp"
+                    android:insetTop="0dp"
+                    android:insetBottom="0dp"
+                    android:onClick="buttonClick"
+                    android:textSize="25dp" />
+
+                <Button
+                    android:id="@+id/idBtnBox34"
+                    style="@style/Widget.Material3.CardView.Outlined"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:backgroundTint="#ADFF6AE6"
+                    android:elevation="0dp"
+                    android:insetTop="0dp"
+                    android:insetBottom="0dp"
+                    android:onClick="buttonClick"
+                    android:textSize="25dp" />
+
+                <Button
+                    android:id="@+id/idBtnBox35"
+                    style="@style/Widget.Material3.CardView.Outlined"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:backgroundTint="#ADFF6AE6"
+                    android:elevation="0dp"
+                    android:insetTop="0dp"
+                    android:insetBottom="0dp"
+                    android:onClick="buttonClick"
+                    android:textSize="25dp" />
+
+                <Button
+                    android:id="@+id/idBtnBox36"
+                    style="@style/Widget.Material3.CardView.Outlined"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:backgroundTint="#ADFF6AE6"
+                    android:elevation="0dp"
+                    android:insetTop="0dp"
+                    android:insetBottom="0dp"
+                    android:onClick="buttonClick"
+                    android:textSize="25dp" />
+
+                <Button
+                    android:id="@+id/idBtnBox37"
+                    style="@style/Widget.Material3.CardView.Outlined"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:backgroundTint="#ADFF6AE6"
+                    android:elevation="0dp"
+                    android:insetTop="0dp"
+                    android:insetBottom="0dp"
+                    android:onClick="buttonClick"
+                    android:textSize="25dp" />
+
+                <Button
+                    android:id="@+id/idBtnBox38"
+                    style="@style/Widget.Material3.CardView.Outlined"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:backgroundTint="#ADFF6AE6"
+                    android:elevation="0dp"
+                    android:insetTop="0dp"
+                    android:insetBottom="0dp"
+                    android:onClick="buttonClick"
+                    android:textSize="25dp" />
+
+                <Button
+                    android:id="@+id/idBtnBox39"
+                    style="@style/Widget.Material3.CardView.Outlined"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:backgroundTint="#ADFF6AE6"
+                    android:elevation="0dp"
+                    android:insetTop="0dp"
+                    android:insetBottom="0dp"
+                    android:onClick="buttonClick"
+                    android:textSize="25dp" />
+
+                <Button
+                    android:id="@+id/idBtnBox40"
+                    style="@style/Widget.Material3.CardView.Outlined"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:backgroundTint="#ADFF6AE6"
+                    android:elevation="0dp"
+                    android:insetTop="0dp"
+                    android:insetBottom="0dp"
+                    android:onClick="buttonClick"
+                    android:textSize="25dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:padding="0dp"
+                android:weightSum="10">
+
+                <Button
+                    android:id="@+id/idBtnBox41"
+                    style="@style/Widget.Material3.CardView.Outlined"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:backgroundTint="#ADFF6AE6"
+                    android:elevation="0dp"
+                    android:insetTop="0dp"
+                    android:insetBottom="0dp"
+                    android:onClick="buttonClick"
+                    android:textSize="25dp" />
+
+                <Button
+                    android:id="@+id/idBtnBox42"
+                    style="@style/Widget.Material3.CardView.Outlined"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:backgroundTint="#ADFF6AE6"
+                    android:elevation="0dp"
+                    android:insetTop="0dp"
+                    android:insetBottom="0dp"
+                    android:onClick="buttonClick"
+                    android:textSize="25dp" />
+
+                <Button
+                    android:id="@+id/idBtnBox43"
+                    style="@style/Widget.Material3.CardView.Outlined"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:backgroundTint="#ADFF6AE6"
+                    android:elevation="0dp"
+                    android:insetTop="0dp"
+                    android:insetBottom="0dp"
+                    android:onClick="buttonClick"
+                    android:textSize="25dp" />
+
+                <Button
+                    android:id="@+id/idBtnBox44"
+                    style="@style/Widget.Material3.CardView.Outlined"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:backgroundTint="#ADFF6AE6"
+                    android:elevation="0dp"
+                    android:insetTop="0dp"
+                    android:insetBottom="0dp"
+                    android:onClick="buttonClick"
+                    android:textSize="25dp" />
+
+                <Button
+                    android:id="@+id/idBtnBox45"
+                    style="@style/Widget.Material3.CardView.Outlined"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:backgroundTint="#ADFF6AE6"
+                    android:elevation="0dp"
+                    android:insetTop="0dp"
+                    android:insetBottom="0dp"
+                    android:onClick="buttonClick"
+                    android:textSize="25dp" />
+
+                <Button
+                    android:id="@+id/idBtnBox46"
+                    style="@style/Widget.Material3.CardView.Outlined"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:backgroundTint="#ADFF6AE6"
+                    android:elevation="0dp"
+                    android:insetTop="0dp"
+                    android:insetBottom="0dp"
+                    android:onClick="buttonClick"
+                    android:textSize="25dp" />
+
+                <Button
+                    android:id="@+id/idBtnBox47"
+                    style="@style/Widget.Material3.CardView.Outlined"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:backgroundTint="#ADFF6AE6"
+                    android:elevation="0dp"
+                    android:insetTop="0dp"
+                    android:insetBottom="0dp"
+                    android:onClick="buttonClick"
+                    android:textSize="25dp" />
+
+                <Button
+                    android:id="@+id/idBtnBox48"
+                    style="@style/Widget.Material3.CardView.Outlined"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:backgroundTint="#ADFF6AE6"
+                    android:elevation="0dp"
+                    android:insetTop="0dp"
+                    android:insetBottom="0dp"
+                    android:onClick="buttonClick"
+                    android:textSize="25dp" />
+
+                <Button
+                    android:id="@+id/idBtnBox49"
+                    style="@style/Widget.Material3.CardView.Outlined"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:backgroundTint="#ADFF6AE6"
+                    android:elevation="0dp"
+                    android:insetTop="0dp"
+                    android:insetBottom="0dp"
+                    android:onClick="buttonClick"
+                    android:textSize="25dp" />
+
+                <Button
+                    android:id="@+id/idBtnBox50"
+                    style="@style/Widget.Material3.CardView.Outlined"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:backgroundTint="#ADFF6AE6"
+                    android:elevation="0dp"
+                    android:insetTop="0dp"
+                    android:insetBottom="0dp"
+                    android:onClick="buttonClick"
+                    android:textSize="25dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:padding="0dp"
+                android:weightSum="10">
+
+                <Button
+                    android:id="@+id/idBtnBox51"
+                    style="@style/Widget.Material3.CardView.Outlined"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:backgroundTint="#ADFF6AE6"
+                    android:elevation="0dp"
+                    android:insetTop="0dp"
+                    android:insetBottom="0dp"
+                    android:onClick="buttonClick"
+                    android:textSize="25dp" />
+
+                <Button
+                    android:id="@+id/idBtnBox52"
+                    style="@style/Widget.Material3.CardView.Outlined"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:backgroundTint="#ADFF6AE6"
+                    android:elevation="0dp"
+                    android:insetTop="0dp"
+                    android:insetBottom="0dp"
+                    android:onClick="buttonClick"
+                    android:textSize="25dp" />
+
+                <Button
+                    android:id="@+id/idBtnBox53"
+                    style="@style/Widget.Material3.CardView.Outlined"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:backgroundTint="#ADFF6AE6"
+                    android:elevation="0dp"
+                    android:insetTop="0dp"
+                    android:insetBottom="0dp"
+                    android:onClick="buttonClick"
+                    android:textSize="25dp" />
+
+                <Button
+                    android:id="@+id/idBtnBox54"
+                    style="@style/Widget.Material3.CardView.Outlined"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:backgroundTint="#ADFF6AE6"
+                    android:elevation="0dp"
+                    android:insetTop="0dp"
+                    android:insetBottom="0dp"
+                    android:onClick="buttonClick"
+                    android:textSize="25dp" />
+
+                <Button
+                    android:id="@+id/idBtnBox55"
+                    style="@style/Widget.Material3.CardView.Outlined"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:backgroundTint="#ADFF6AE6"
+                    android:elevation="0dp"
+                    android:insetTop="0dp"
+                    android:insetBottom="0dp"
+                    android:onClick="buttonClick"
+                    android:textSize="25dp" />
+
+                <Button
+                    android:id="@+id/idBtnBox56"
+                    style="@style/Widget.Material3.CardView.Outlined"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:backgroundTint="#ADFF6AE6"
+                    android:elevation="0dp"
+                    android:insetTop="0dp"
+                    android:insetBottom="0dp"
+                    android:onClick="buttonClick"
+                    android:textSize="25dp" />
+
+                <Button
+                    android:id="@+id/idBtnBox57"
+                    style="@style/Widget.Material3.CardView.Outlined"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:backgroundTint="#ADFF6AE6"
+                    android:elevation="0dp"
+                    android:insetTop="0dp"
+                    android:insetBottom="0dp"
+                    android:onClick="buttonClick"
+                    android:textSize="25dp" />
+
+                <Button
+                    android:id="@+id/idBtnBox58"
+                    style="@style/Widget.Material3.CardView.Outlined"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:backgroundTint="#ADFF6AE6"
+                    android:elevation="0dp"
+                    android:insetTop="0dp"
+                    android:insetBottom="0dp"
+                    android:onClick="buttonClick"
+                    android:textSize="25dp" />
+
+                <Button
+                    android:id="@+id/idBtnBox59"
+                    style="@style/Widget.Material3.CardView.Outlined"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:backgroundTint="#ADFF6AE6"
+                    android:elevation="0dp"
+                    android:insetTop="0dp"
+                    android:insetBottom="0dp"
+                    android:onClick="buttonClick"
+                    android:textSize="25dp" />
+
+                <Button
+                    android:id="@+id/idBtnBox60"
+                    style="@style/Widget.Material3.CardView.Outlined"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:backgroundTint="#ADFF6AE6"
+                    android:elevation="0dp"
+                    android:insetTop="0dp"
+                    android:insetBottom="0dp"
+                    android:onClick="buttonClick"
+                    android:textSize="25dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:padding="0dp"
+                android:weightSum="10">
+
+                <Button
+                    android:id="@+id/idBtnBox61"
+                    style="@style/Widget.Material3.CardView.Outlined"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:backgroundTint="#ADFF6AE6"
+                    android:elevation="0dp"
+                    android:insetTop="0dp"
+                    android:insetBottom="0dp"
+                    android:onClick="buttonClick"
+                    android:textSize="25dp" />
+
+                <Button
+                    android:id="@+id/idBtnBox62"
+                    style="@style/Widget.Material3.CardView.Outlined"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:backgroundTint="#ADFF6AE6"
+                    android:elevation="0dp"
+                    android:insetTop="0dp"
+                    android:insetBottom="0dp"
+                    android:onClick="buttonClick"
+                    android:textSize="25dp" />
+
+                <Button
+                    android:id="@+id/idBtnBox63"
+                    style="@style/Widget.Material3.CardView.Outlined"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:backgroundTint="#ADFF6AE6"
+                    android:elevation="0dp"
+                    android:insetTop="0dp"
+                    android:insetBottom="0dp"
+                    android:onClick="buttonClick"
+                    android:textSize="25dp" />
+
+                <Button
+                    android:id="@+id/idBtnBox64"
+                    style="@style/Widget.Material3.CardView.Outlined"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:backgroundTint="#ADFF6AE6"
+                    android:elevation="0dp"
+                    android:insetTop="0dp"
+                    android:insetBottom="0dp"
+                    android:onClick="buttonClick"
+                    android:textSize="25dp" />
+
+                <Button
+                    android:id="@+id/idBtnBox65"
+                    style="@style/Widget.Material3.CardView.Outlined"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:backgroundTint="#ADFF6AE6"
+                    android:elevation="0dp"
+                    android:insetTop="0dp"
+                    android:insetBottom="0dp"
+                    android:onClick="buttonClick"
+                    android:textSize="25dp" />
+
+                <Button
+                    android:id="@+id/idBtnBox66"
+                    style="@style/Widget.Material3.CardView.Outlined"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:backgroundTint="#ADFF6AE6"
+                    android:elevation="0dp"
+                    android:insetTop="0dp"
+                    android:insetBottom="0dp"
+                    android:onClick="buttonClick"
+                    android:textSize="25dp" />
+
+                <Button
+                    android:id="@+id/idBtnBox67"
+                    style="@style/Widget.Material3.CardView.Outlined"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:backgroundTint="#ADFF6AE6"
+                    android:elevation="0dp"
+                    android:insetTop="0dp"
+                    android:insetBottom="0dp"
+                    android:onClick="buttonClick"
+                    android:textSize="25dp" />
+
+                <Button
+                    android:id="@+id/idBtnBox68"
+                    style="@style/Widget.Material3.CardView.Outlined"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:backgroundTint="#ADFF6AE6"
+                    android:elevation="0dp"
+                    android:insetTop="0dp"
+                    android:insetBottom="0dp"
+                    android:onClick="buttonClick"
+                    android:textSize="25dp" />
+
+                <Button
+                    android:id="@+id/idBtnBox69"
+                    style="@style/Widget.Material3.CardView.Outlined"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:backgroundTint="#ADFF6AE6"
+                    android:elevation="0dp"
+                    android:insetTop="0dp"
+                    android:insetBottom="0dp"
+                    android:onClick="buttonClick"
+                    android:textSize="25dp" />
+
+                <Button
+                    android:id="@+id/idBtnBox70"
+                    style="@style/Widget.Material3.CardView.Outlined"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:backgroundTint="#ADFF6AE6"
+                    android:elevation="0dp"
+                    android:insetTop="0dp"
+                    android:insetBottom="0dp"
+                    android:onClick="buttonClick"
+                    android:textSize="25dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:padding="0dp"
+                android:weightSum="10">
+
+                <Button
+                    android:id="@+id/idBtnBox71"
+                    style="@style/Widget.Material3.CardView.Outlined"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:backgroundTint="#ADFF6AE6"
+                    android:elevation="0dp"
+                    android:insetTop="0dp"
+                    android:insetBottom="0dp"
+                    android:onClick="buttonClick"
+                    android:textSize="25dp" />
+
+                <Button
+                    android:id="@+id/idBtnBox72"
+                    style="@style/Widget.Material3.CardView.Outlined"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:backgroundTint="#ADFF6AE6"
+                    android:elevation="0dp"
+                    android:insetTop="0dp"
+                    android:insetBottom="0dp"
+                    android:onClick="buttonClick"
+                    android:textSize="25dp" />
+
+                <Button
+                    android:id="@+id/idBtnBox73"
+                    style="@style/Widget.Material3.CardView.Outlined"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:backgroundTint="#ADFF6AE6"
+                    android:elevation="0dp"
+                    android:insetTop="0dp"
+                    android:insetBottom="0dp"
+                    android:onClick="buttonClick"
+                    android:textSize="25dp" />
+
+                <Button
+                    android:id="@+id/idBtnBox74"
+                    style="@style/Widget.Material3.CardView.Outlined"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:backgroundTint="#ADFF6AE6"
+                    android:elevation="0dp"
+                    android:insetTop="0dp"
+                    android:insetBottom="0dp"
+                    android:onClick="buttonClick"
+                    android:textSize="25dp" />
+
+                <Button
+                    android:id="@+id/idBtnBox75"
+                    style="@style/Widget.Material3.CardView.Outlined"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:backgroundTint="#ADFF6AE6"
+                    android:elevation="0dp"
+                    android:insetTop="0dp"
+                    android:insetBottom="0dp"
+                    android:onClick="buttonClick"
+                    android:textSize="25dp" />
+
+                <Button
+                    android:id="@+id/idBtnBox76"
+                    style="@style/Widget.Material3.CardView.Outlined"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:backgroundTint="#ADFF6AE6"
+                    android:elevation="0dp"
+                    android:insetTop="0dp"
+                    android:insetBottom="0dp"
+                    android:onClick="buttonClick"
+                    android:textSize="25dp" />
+
+                <Button
+                    android:id="@+id/idBtnBox77"
+                    style="@style/Widget.Material3.CardView.Outlined"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:backgroundTint="#ADFF6AE6"
+                    android:elevation="0dp"
+                    android:insetTop="0dp"
+                    android:insetBottom="0dp"
+                    android:onClick="buttonClick"
+                    android:textSize="25dp" />
+
+                <Button
+                    android:id="@+id/idBtnBox78"
+                    style="@style/Widget.Material3.CardView.Outlined"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:backgroundTint="#ADFF6AE6"
+                    android:elevation="0dp"
+                    android:insetTop="0dp"
+                    android:insetBottom="0dp"
+                    android:onClick="buttonClick"
+                    android:textSize="25dp" />
+
+                <Button
+                    android:id="@+id/idBtnBox79"
+                    style="@style/Widget.Material3.CardView.Outlined"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:backgroundTint="#ADFF6AE6"
+                    android:elevation="0dp"
+                    android:insetTop="0dp"
+                    android:insetBottom="0dp"
+                    android:onClick="buttonClick"
+                    android:textSize="25dp" />
+
+                <Button
+                    android:id="@+id/idBtnBox80"
+                    style="@style/Widget.Material3.CardView.Outlined"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:backgroundTint="#ADFF6AE6"
+                    android:elevation="0dp"
+                    android:insetTop="0dp"
+                    android:insetBottom="0dp"
+                    android:onClick="buttonClick"
+                    android:textSize="25dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:padding="0dp"
+                android:weightSum="10">
+
+                <Button
+                    android:id="@+id/idBtnBox81"
+                    style="@style/Widget.Material3.CardView.Outlined"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:backgroundTint="#ADFF6AE6"
+                    android:elevation="0dp"
+                    android:insetTop="0dp"
+                    android:insetBottom="0dp"
+                    android:onClick="buttonClick"
+                    android:textSize="25dp" />
+
+                <Button
+                    android:id="@+id/idBtnBox82"
+                    style="@style/Widget.Material3.CardView.Outlined"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:backgroundTint="#ADFF6AE6"
+                    android:elevation="0dp"
+                    android:insetTop="0dp"
+                    android:insetBottom="0dp"
+                    android:onClick="buttonClick"
+                    android:textSize="25dp" />
+
+                <Button
+                    android:id="@+id/idBtnBox83"
+                    style="@style/Widget.Material3.CardView.Outlined"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:backgroundTint="#ADFF6AE6"
+                    android:elevation="0dp"
+                    android:insetTop="0dp"
+                    android:insetBottom="0dp"
+                    android:onClick="buttonClick"
+                    android:textSize="25dp" />
+
+                <Button
+                    android:id="@+id/idBtnBox84"
+                    style="@style/Widget.Material3.CardView.Outlined"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:backgroundTint="#ADFF6AE6"
+                    android:elevation="0dp"
+                    android:insetTop="0dp"
+                    android:insetBottom="0dp"
+                    android:onClick="buttonClick"
+                    android:textSize="25dp" />
+
+                <Button
+                    android:id="@+id/idBtnBox85"
+                    style="@style/Widget.Material3.CardView.Outlined"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:backgroundTint="#ADFF6AE6"
+                    android:elevation="0dp"
+                    android:insetTop="0dp"
+                    android:insetBottom="0dp"
+                    android:onClick="buttonClick"
+                    android:textSize="25dp" />
+
+                <Button
+                    android:id="@+id/idBtnBox86"
+                    style="@style/Widget.Material3.CardView.Outlined"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:backgroundTint="#ADFF6AE6"
+                    android:elevation="0dp"
+                    android:insetTop="0dp"
+                    android:insetBottom="0dp"
+                    android:onClick="buttonClick"
+                    android:textSize="25dp" />
+
+                <Button
+                    android:id="@+id/idBtnBox87"
+                    style="@style/Widget.Material3.CardView.Outlined"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:backgroundTint="#ADFF6AE6"
+                    android:elevation="0dp"
+                    android:insetTop="0dp"
+                    android:insetBottom="0dp"
+                    android:onClick="buttonClick"
+                    android:textSize="25dp" />
+
+                <Button
+                    android:id="@+id/idBtnBox88"
+                    style="@style/Widget.Material3.CardView.Outlined"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:backgroundTint="#ADFF6AE6"
+                    android:elevation="0dp"
+                    android:insetTop="0dp"
+                    android:insetBottom="0dp"
+                    android:onClick="buttonClick"
+                    android:textSize="25dp" />
+
+                <Button
+                    android:id="@+id/idBtnBox89"
+                    style="@style/Widget.Material3.CardView.Outlined"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:backgroundTint="#ADFF6AE6"
+                    android:elevation="0dp"
+                    android:insetTop="0dp"
+                    android:insetBottom="0dp"
+                    android:onClick="buttonClick"
+                    android:textSize="25dp" />
+
+                <Button
+                    android:id="@+id/idBtnBox90"
+                    style="@style/Widget.Material3.CardView.Outlined"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:backgroundTint="#ADFF6AE6"
+                    android:elevation="0dp"
+                    android:insetTop="0dp"
+                    android:insetBottom="0dp"
+                    android:onClick="buttonClick"
+                    android:textSize="25dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:padding="0dp"
+                android:weightSum="10">
+
+                <Button
+                    android:id="@+id/idBtnBox91"
+                    style="@style/Widget.Material3.CardView.Outlined"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:backgroundTint="#ADFF6AE6"
+                    android:elevation="0dp"
+                    android:insetTop="0dp"
+                    android:insetBottom="0dp"
+                    android:onClick="buttonClick"
+                    android:textSize="25dp" />
+
+                <Button
+                    android:id="@+id/idBtnBox92"
+                    style="@style/Widget.Material3.CardView.Outlined"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:backgroundTint="#ADFF6AE6"
+                    android:elevation="0dp"
+                    android:insetTop="0dp"
+                    android:insetBottom="0dp"
+                    android:onClick="buttonClick"
+                    android:textSize="25dp" />
+
+                <Button
+                    android:id="@+id/idBtnBox93"
+                    style="@style/Widget.Material3.CardView.Outlined"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:backgroundTint="#ADFF6AE6"
+                    android:elevation="0dp"
+                    android:insetTop="0dp"
+                    android:insetBottom="0dp"
+                    android:onClick="buttonClick"
+                    android:textSize="25dp" />
+
+                <Button
+                    android:id="@+id/idBtnBox94"
+                    style="@style/Widget.Material3.CardView.Outlined"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:backgroundTint="#ADFF6AE6"
+                    android:elevation="0dp"
+                    android:insetTop="0dp"
+                    android:insetBottom="0dp"
+                    android:onClick="buttonClick"
+                    android:textSize="25dp" />
+
+                <Button
+                    android:id="@+id/idBtnBox95"
+                    style="@style/Widget.Material3.CardView.Outlined"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:backgroundTint="#ADFF6AE6"
+                    android:elevation="0dp"
+                    android:insetTop="0dp"
+                    android:insetBottom="0dp"
+                    android:onClick="buttonClick"
+                    android:textSize="25dp" />
+
+                <Button
+                    android:id="@+id/idBtnBox96"
+                    style="@style/Widget.Material3.CardView.Outlined"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:backgroundTint="#ADFF6AE6"
+                    android:elevation="0dp"
+                    android:insetTop="0dp"
+                    android:insetBottom="0dp"
+                    android:onClick="buttonClick"
+                    android:textSize="25dp" />
+
+                <Button
+                    android:id="@+id/idBtnBox97"
+                    style="@style/Widget.Material3.CardView.Outlined"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:backgroundTint="#ADFF6AE6"
+                    android:elevation="0dp"
+                    android:insetTop="0dp"
+                    android:insetBottom="0dp"
+                    android:onClick="buttonClick"
+                    android:textSize="25dp" />
+
+                <Button
+                    android:id="@+id/idBtnBox98"
+                    style="@style/Widget.Material3.CardView.Outlined"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:backgroundTint="#ADFF6AE6"
+                    android:elevation="0dp"
+                    android:insetTop="0dp"
+                    android:insetBottom="0dp"
+                    android:onClick="buttonClick"
+                    android:textSize="25dp" />
+
+                <Button
+                    android:id="@+id/idBtnBox99"
+                    style="@style/Widget.Material3.CardView.Outlined"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:backgroundTint="#ADFF6AE6"
+                    android:elevation="0dp"
+                    android:insetTop="0dp"
+                    android:insetBottom="0dp"
+                    android:onClick="buttonClick"
+                    android:textSize="25dp" />
+
+                <Button
+                    android:id="@+id/idBtnBox100"
+                    style="@style/Widget.Material3.CardView.Outlined"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:backgroundTint="#ADFF6AE6"
+                    android:elevation="0dp"
+                    android:insetTop="0dp"
+                    android:insetBottom="0dp"
+                    android:onClick="buttonClick"
+                    android:textSize="25dp" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="30dp"
+            android:orientation="horizontal">
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
